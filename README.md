@@ -127,7 +127,7 @@ See `requirements.txt` for the complete list of dependencies:
 - **pandas**: Data manipulation and analysis
 - **scikit-learn**: Machine learning library
 - **numpy**: Numerical computing
-- **streamlit**: Web application framework (if not listed, run: `pip install streamlit`)
+- **streamlit**: Web application framework
 
 ## 🔧 Future Improvements
 
