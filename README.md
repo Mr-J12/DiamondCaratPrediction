@@ -85,7 +85,20 @@ DiamondCaratPrediction/
 ├── requirements.txt      # Python dependencies
 └── README.md             # Project documentation
 ```
+## 📊 Dataset
 
+The project uses the **Diamonds Dataset** (`diamonds.csv`), which contains information about approximately 54,000 diamonds with the following features:
+
+- **Carat**: Weight of the diamond (target variable)
+- **Cut**: Quality of the cut (Fair, Good, Very Good, Premium, Ideal)
+- **Color**: Color grade of the diamond (D-J scale)
+- **Clarity**: Clarity grade of the diamond (I1 to IF)
+- **Depth**: Total depth percentage
+- **Table**: Width of the top of the diamond relative to widest point
+- **Price**: Price in US dollars
+- **X**: Length in millimeters
+- **Y**: Width in millimeters
+- **Z**: Depth in millimeters
 ## 🤖 Model Details
 
 - **Algorithm**: Random Forest Regressor
@@ -106,20 +119,6 @@ The model's performance is evaluated using the **R² Score** on the test dataset
 ### Model Comparison
 ![Model Comparison Graph](comparision_graph.png)
 
-## 📊 Dataset
-
-The project uses the **Diamonds Dataset** (`diamonds.csv`), which contains information about approximately 54,000 diamonds with the following features:
-
-- **Carat**: Weight of the diamond (target variable)
-- **Cut**: Quality of the cut (Fair, Good, Very Good, Premium, Ideal)
-- **Color**: Color grade of the diamond (D-J scale)
-- **Clarity**: Clarity grade of the diamond (I1 to IF)
-- **Depth**: Total depth percentage
-- **Table**: Width of the top of the diamond relative to widest point
-- **Price**: Price in US dollars
-- **X**: Length in millimeters
-- **Y**: Width in millimeters
-- **Z**: Depth in millimeters
 
 ## 📦 Requirements
 
