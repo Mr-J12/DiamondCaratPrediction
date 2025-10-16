@@ -49,32 +49,6 @@ This project uses machine learning to predict diamond carat weight based on vari
 4. **Ensure the dataset is present**
    - Make sure `diamonds.csv` is in the project directory
 
-## 💻 Usage
-
-To run the application:
-
-```bash
-streamlit run model.py
-```
-
-This will start a local web server. Open your browser and navigate to `http://localhost:8501` to access the application.
-
-### How to Use the Application
-
-1. **Input Diamond Features**: Use the sidebar to select or input the diamond's characteristics:
-   - **Cut**: Select from available cut grades (Fair, Good, Very Good, Premium, Ideal)
-   - **Color**: Select from available color grades (D, E, F, G, H, I, J)
-   - **Clarity**: Select from available clarity grades (I1, SI2, SI1, VS2, VS1, VVS2, VVS1, IF)
-   - **Depth**: Adjust the depth percentage using the slider
-   - **Table**: Adjust the table percentage using the slider
-   - **Price**: Set the price in dollars
-   - **X, Y, Z**: Adjust the diamond dimensions in millimeters
-
-2. **Get Prediction**: Click the "Predict Carat" button to get the predicted carat weight
-
-3. **View Results**: The predicted carat value will be displayed prominently
-
-4. **Explore Data**: View sample records from the diamond dataset at the bottom of the page
 
 ## 📁 Project Structure
 
@@ -128,6 +102,33 @@ See `requirements.txt` for the complete list of dependencies:
 - **scikit-learn**: Machine learning library
 - **numpy**: Numerical computing
 - **streamlit**: Web application framework
+
+## 💻 Usage
+
+To run the application:
+
+```bash
+streamlit run model.py
+```
+
+This will start a local web server. Open your browser and navigate to `http://localhost:8501` to access the application.
+
+### How to Use the Application
+
+1. **Input Diamond Features**: Use the sidebar to select or input the diamond's characteristics:
+   - **Cut**: Select from available cut grades (Fair, Good, Very Good, Premium, Ideal)
+   - **Color**: Select from available color grades (D, E, F, G, H, I, J)
+   - **Clarity**: Select from available clarity grades (I1, SI2, SI1, VS2, VS1, VVS2, VVS1, IF)
+   - **Depth**: Adjust the depth percentage using the slider
+   - **Table**: Adjust the table percentage using the slider
+   - **Price**: Set the price in dollars
+   - **X, Y, Z**: Adjust the diamond dimensions in millimeters
+
+2. **Get Prediction**: Click the "Predict Carat" button to get the predicted carat weight
+
+3. **View Results**: The predicted carat value will be displayed prominently
+
+4. **Explore Data**: View sample records from the diamond dataset at the bottom of the page
 
 ## 🔧 Future Improvements
 
