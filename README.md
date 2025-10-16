@@ -133,7 +133,6 @@ See `requirements.txt` for the complete list of dependencies:
 ## 🔧 Future Improvements
 
 - Add more machine learning models (XGBoost, Gradient Boosting, etc.) for comparison
-- Implement model performance comparison visualizations
 - Add feature importance analysis
 - Deploy to cloud platforms (Heroku, AWS, Azure)
 - Add historical prediction tracking
