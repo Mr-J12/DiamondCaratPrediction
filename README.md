@@ -1,4 +1,4 @@
-# 💎 Diamond Carat Prediction 💎
+# 💎 Diamond Carat Predictor 💎
 
 A machine learning application that predicts the carat weight of diamonds based on their physical characteristics using a Random Forest Regressor model.
 
@@ -105,13 +105,17 @@ See `requirements.txt` for the complete list of dependencies:
 
 ## 💻 Usage
 
-To run the application:
+To run the application on the system:
 
 ```bash
 streamlit run model.py
 ```
 
 This will start a local web server. Open your browser and navigate to `http://localhost:8501` to access the application.
+
+To run the application on mobile devices:
+
+click on the link:- [🔗](diacarpredmod.streamlit.app)
 
 ### How to Use the Application
 
