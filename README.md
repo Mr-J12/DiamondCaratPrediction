@@ -115,7 +115,7 @@ This will start a local web server. Open your browser and navigate to `http://lo
 
 To run the application on mobile devices:
 
-click on the link:- [here](diacarpredmod.streamlit.app)
+click on the link:- [here](https://diacarpredmod.streamlit.app/)
 
 ### How to Use the Application
 
