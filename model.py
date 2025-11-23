@@ -6,7 +6,8 @@ from sklearn.metrics import r2_score
 import numpy as np
 
 # --- App Title and Description ---
-st.title("💎 Diamond Carat Prediction")
+st.set_page_config(page_title='Crystalytics', page_icon='💎', layout='wide')
+st.title("Diamond Carat Prediction")
 st.write(
     "This application predicts the **carat** of a diamond based on its features. "
     "Use the sidebar to input the diamond's characteristics."
